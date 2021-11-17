@@ -7,6 +7,7 @@ package com.OdkApprenant.demo.model;
 
 import java.time.LocalDate;
 import javax.persistence.Entity;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -31,7 +32,8 @@ public class Apprenant {
     private String ApprenantStatus;
     private LocalDate dateCreation;
     private LocalDate dateModification;
-
+   
+    
     public Apprenant() {
     }
 
